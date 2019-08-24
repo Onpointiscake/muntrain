@@ -1,0 +1,135 @@
+/*COLORES: 46494c-4c5c68-d1e5d7-44af69-1985a1*/
+@import url('https://fonts.googleapis.com/css?family=Slabo+13px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
+body{
+    background: #D1E5D7;
+    font-family: 'Slabo 13px', serif;
+    margin: 0;
+    padding: 0;
+   
+}
+a{
+    text-decoration: none;
+    color: #44af69;
+}
+/*CONTAINER DEL Logo, Descripcion del Test, y CRONOmetro*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    margin-top: 1vh;
+}
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo-desc{
+    margin-left: 2vh;
+}
+.test-show{
+    margin-right: 5%;
+}
+.tiempo-show{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fa-stopwatch{
+    font-size: 1.5rem;
+}
+#current-clock{
+    margin-left: 3vh;
+}
+/* CONTAINER DEL EJERCICIO ENTERO: */
+#exercise-wrapper{
+    margin-left: 24vh;
+    margin-right: 24vh;
+    height: 77vh;
+}
+/* CONTAINER DEL MAPA: */
+.map-wrap{
+    float: left;
+    width: 50%;
+    height: 80%;
+    margin-top: 8vh;
+    
+}
+
+/* CONTAINER DE LA PREGUNTA Y LAS RESPUESTAS: */
+.ans-ques-wrap{
+    font-family: 'Slabo 27px', serif;
+    float: right;
+    width: 45%;
+    padding-top: 0px;
+    margin-top: 9vh;
+    
+}
+.answer-div{
+    padding-top: 1rem;
+}
+
+.btn-resp{
+    display: inline-block;
+    padding: 0.7rem 1.4em;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#4c5c68;
+    background-color:#61b37e;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+}
+a.btn-resp:active{
+    top:0.1em;
+}
+@media all and (max-width:30em){
+    a.btn-resp{
+        display: block;
+        margin: 0.3em auto;
+    }
+}
+.btn-numb{
+    color: #e5e4e2;
+}
+.btn-numb:hover{
+    color: #4c5c68;
+    background: #9ce6b6;
+}
+
+/* Footer y CONTAINERs DEL FOOTER: */
+#footer-container{
+    width: 100%;
+    background: #e5e4e2;
+    color: #4c5c68;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.shortcuts-container{
+   
+    align-items: center;
+    margin-left: 24vh;
+}
+.check-btn-container{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    margin-right: 24vh;
+}
+#check-answer{
+    height: 50%;
+    margin-left: 2%;
+}
