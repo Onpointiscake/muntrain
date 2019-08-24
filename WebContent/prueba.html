@@ -5,23 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="stylePrueba.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#b91d47">
-    <meta name="theme-color" content="#ffffff">
-    <title>Welcome to Muntrain!</title>
+    <link rel="stylesheet" href="stylePrueba.css">
+    <title>Document</title>
 </head>
-
-
 <body>
-     <h3>AQUI SE PODRA REALIZAR UN TEST
-     SIN NECESIDAD DE REGISTRARSE</h3>
+    <nav>
+        <div class="logo-container"><img height="50%" src="favicon/favicon-32x32.png" alt=""><h3 class="logo-desc">Muntrain Exercise</h3></div>
+        <div id="current_test" class="test-show">
+            <h3 >Prueba de Altitudes</h3>
+        </div>
+        <div id="current_time" class="tiempo-show">
+            <i class="material-icons">timer</i><p id="current-clock">9:59</p>
+        </div>
+    </nav>
+
+    <main>
+        <div id="exercise-wrapper">
+            <div class="map-wrap">
+                <img height="auto" width="100%" src="images/map-test.jpg" alt="">
+            </div>
+            <div class="ans-ques-wrap">
+                <div class="question_div">
+                    <h1 class="question">¿Que decision tomaremos para desplazarnos en el punto indicado?</h1>
+                </div>
+                <div class="answers-div">
+                       <div class="answer-div">
+                            <a href="something" class="btn0 btn-resp btn-numb">1</a>
+                            <a href="something" class="btn0 btn-resp" style="background-color:#e5e4e2">ARRIBA Y ABAJO</a>
+                       </div>
+                       <div class="answer-div">
+                            <a href="something" class="btn1 btn-resp btn-numb">2</a>
+                            <a href="something" class="btn1 btn-resp" style="background-color:#e5e4e2">IZQUIERDA Y DERECHA</a>
+                       </div>
+                       <div class="answer-div">
+                            <a href="something" class="btn2 btn-resp btn-numb">3</a>
+                            <a href="something" class="btn2 btn-resp "style="background-color:#e5e4e2">ABAJO Y ARRIBA</a>
+                       </div>
+                       <div class="answer-div">
+                            <a href="something" class="btn3 btn-resp btn-numb">4</a>
+                            <a href="something" class="btn3 btn-resp" style="background-color:#e5e4e2">NO SE PUEDE CONTINUAR EN ESA FASE</a>
+                       </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer-container">
+            <div class="shortcuts-container">
+                <h4>Mejora tu tiempo con los <a href="#">atajos de teclado</a></h4>
+            </div>
+            <div class="check-btn-container">
+                <h4>PULSA INTRO PARA</h4>
+                <button id="check-answer">Comprobar</button>
+            </div>
+        </div>
+        
+    </footer>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </html>
