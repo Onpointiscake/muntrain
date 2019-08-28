@@ -4,7 +4,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="muntrain_orienteering_game">
-
+		
+		
 		<class>muntrain.model.User</class>
 		<class>muntrain.model.Question</class>
 		<class>muntrain.model.Response</class>

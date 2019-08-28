@@ -40,6 +40,11 @@ public class User implements Serializable {
 		this.email = email;
 	}
 
+	public User(String login) {
+		super();
+		this.login = login;
+	}
+
 	public int getIduser() {
 		return iduser;
 	}
