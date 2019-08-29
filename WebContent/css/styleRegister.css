@@ -54,7 +54,7 @@ body{
     margin-bottom: 6vh;
 }
 .redirectlogin{
-    /*Cambiar color mala visibilidad >> */ color: #6fe7f7;
+    /*Cambiar color mala visibilidad >> */ color: #FE7F2D ;
     font-size: 1.3rem;
     margin-left: 2vh;
     font-weight: bold;
@@ -65,5 +65,5 @@ input{
     font-weight: 500;
 }
 .btn-submit{
-    background: #5FB49C !important;
+    background: #053225  !important;
 }

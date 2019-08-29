@@ -151,6 +151,15 @@ nav {
 		transform: translateY(0px);
 	}
 }
+footer{
+	background: #5F6062;
+	padding: 25px 25px;
+	text-align: center;
+	color: #ffffff;
+}
+footer a{
+	color: rgb(136, 192, 252);
+}
 
 @media screen and (max-width: 1024px) {
 	.presentation {
